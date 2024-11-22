@@ -1,0 +1,7 @@
+services:
+  json_to_insomnia:
+    build:
+      context: .
+    container_name: json_to_insomnia
+    volumes:
+      - ./app:/app
